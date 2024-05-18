@@ -9,7 +9,7 @@ import { button, buttons, listForm, taskForm, close } from "./DropDownForm.css";
 type TDropDownProps = {
   boardId: string;
   listId: string;
-  seIsFormOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  setIsFormOpen: React.Dispatch<React.SetStateAction<boolean>>;
   list?: boolean;
 };
 
