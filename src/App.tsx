@@ -49,7 +49,7 @@ function App() {
           ? indexToBeDeleted + 1
           : indexToBeDeleted - 1;
       };
-      setActiveBoardId(boards[1].boardId);
+      setActiveBoardId(boards[newIndexToSet()].boardId);
     } else {
       alert("최소 게시판 개수는 한 개입니다.");
     }
