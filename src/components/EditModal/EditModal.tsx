@@ -127,7 +127,7 @@ const EditModal = () => {
             일 수정하기
           </button>
           <button className={deleteButton} onClick={handleDelete}>
-            일 삭제하기
+            일 삭제하기{}
           </button>
         </div>
       </div>
